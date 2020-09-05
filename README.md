@@ -20,7 +20,7 @@ What a disappointment, I couldn't find a good host with free plan for demo. Mayb
 
   ## Public side
   
-    WEBpage files are in root folder   
+    -WEBpage files are in root folder   
 
     -get API key
     -Test Service on our site
@@ -28,7 +28,7 @@ What a disappointment, I couldn't find a good host with free plan for demo. Mayb
   
   -API access files:  code snipets for users interaction with private service are located in folder /userUI/
     
-    Supported languages are:
+    -Supported languages are:
 
       -JavaScript
       -Python
