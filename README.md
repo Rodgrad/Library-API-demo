@@ -10,6 +10,7 @@ Link bellow does not support CORS because it is hosted on shared hosting, to tes
 http://exampletemplates.epizy.com/
 
 What a disappointment, I couldn't find a good host with a free plan for this learning demo. Maybe in the future.
+ADVICE: Test it in local because hosting on link is freemium, so preformance can be sluggish.
 
 !READ A NOTE
 ***********************************************************************************************************************
