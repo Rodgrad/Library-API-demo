@@ -5,7 +5,7 @@ $("#api-form").submit(function(){
     var email = $('#email').val();
     $.ajax({
         'method': 'POST',
-        'url': "http://localhost/api/config/create_api.php",
+        'url': "config/create_api.php",
         'data':{'email': email , 'origin':true },
         success:function(data){
             document.getElementById('api-holder').innerHTML = "<h4>" 
