@@ -17,6 +17,8 @@ What a disappointment, I couldn't find a good host with a free plan for demo. Ma
 
 # Separation of concerns
 
+It is advisable to serve public and private from different IPs.
+
 
   ## Public side
   
