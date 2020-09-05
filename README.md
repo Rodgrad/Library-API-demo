@@ -20,16 +20,16 @@ What a disappointment, I couldn't find a good host with free plan for demo. Mayb
 
   ## Public side
   
-    -Host page files are in folder view/
-  
+    -WEBpage files are in root folder   
+
     -get API key
     -Test Service on our site
   
   
-  
-  -API access files:  code snipets for users interaction with service are located in folder userUI/
-    Supported languages are:
+  -API access files:  code snipets for users interaction with private service are located in folder /userUI/
     
+    Supported languages are:
+
       -JavaScript
       -Python
       -PHP
@@ -37,9 +37,13 @@ What a disappointment, I couldn't find a good host with free plan for demo. Mayb
   
   ## Private side
   
+  -Request handler files are in folder /view/
+  
+      -Search procedure
+
+  
   -Service files are located in folder config/
   
-    -Search procedure
     -API key procedure
     -db connection (not included)
   
@@ -54,6 +58,10 @@ What a disappointment, I couldn't find a good host with free plan for demo. Mayb
 # Test in local enviroment
   
   run settings.py or settings.php in shell or use index.php from browser.
+  
+# Response data 
+
+  Response data is in JSON format.
     
     
 
