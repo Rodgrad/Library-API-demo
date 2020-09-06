@@ -1,7 +1,7 @@
 # Library-API-demo
 Demo API providing information about books.
 
-This is a demo API to search book data like the number of pages isbn code or author etc.
+This is a demo API to search book data like the number of pages isbn code or author etc, it can be served as monolith or RESTful.
 
 ***********************************************************************************************************************
 !NOTE 
