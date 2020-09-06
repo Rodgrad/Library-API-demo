@@ -20,7 +20,6 @@ $('#search-form').submit(function(){
     }
     $.ajax(settings).done(function (response) {
 
-        console.log(response);
         var data = JSON.parse(response);
         var res = '' ;
         for(var i=0; i<data.length; i++){
