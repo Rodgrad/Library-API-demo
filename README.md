@@ -4,15 +4,7 @@ Demo API providing information about books.
 This is a demo API to search book data like the number of pages isbn code or author etc, it can be served as monolith or RESTful.
 
 ***********************************************************************************************************************
-!NOTE 
-Link bellow does not support CORS because it is hosted on shared hosting, to test API you will need to download code and host it in your local environment.
 
-http://exampletemplates.epizy.com/
-
-What a disappointment, I couldn't find a good host with a free plan for this learning demo. Maybe in the future.
-ADVICE: Test it in local because hosting on link is freemium, so preformance can be sluggish.
-
-!READ A NOTE
 ***********************************************************************************************************************
 
 
