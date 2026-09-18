@@ -1,34 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cjenik valuta="EUR" jezik="hr">
-  <tvrtka>
-    <naziv>Test Sedam Grešaka d.o.o.</naziv>
-  </tvrtka>
-
-  <!-- GREŠKA 1: nepodudarajuće oznake -->
-  <kategorija>
-    <naziv>Web usluge</naziv>
-  </kategorije>
-
-  <!-- GREŠKA 2: nezatvorena oznaka -->
+  <tvrtka><naziv>Digital Plus d.o.o.</naziv></tvrtka>
+  <kategorija><naziv>Web usluge</naziv></kategorije>
+  <usluga><naziv>Izrada web stranice</naziv><cijena>500.00</cijena></uslug>
   <usluga>
-    <naziv>Izrada web stranice</naziv>
-    <cijena>500.00</cijena>
-
-  <!-- GREŠKA 3: neispravno ugniježđene oznake -->
-  <opis><strong>Opis usluge</opis></strong>
-
-  <!-- GREŠKA 4: atribut bez navodnika -->
-  <stavka valuta=EUR>
-    <naziv>Hosting</naziv>
-  </stavka>
-
-  <!-- GREŠKA 5: nedopušten znak & -->
+    <naziv>Održavanje web stranice</naziv>
+    <opis><strong>Mjesečno tehničko održavanje</opis></strong>
+    <cijena>39.00</cijena>
+  </usluga>
+  <stavka valuta=EUR><naziv>Hosting</naziv><cijena>99.00</cijena></stavka>
   <napomena>Hosting & održavanje uključeni</napomena>
-
-  <!-- GREŠKA 6: neispravan završetak praznog elementa -->
   <dostupnost / >
-
-  <!-- GREŠKA 7: završna oznaka bez odgovarajuće početne -->
   </popust>
-
+  <kontakt><email>info@example.hr</email>
 </cjenik>
