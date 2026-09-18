@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cjenik valuta="EUR" jezik="hr">
+  <tvrtka><naziv>Digital Plus d.o.o.</naziv></tvrtka>
+  <kategorija><naziv>Web usluge</naziv></kategorije>
+  <usluga><naziv>Izrada web stranice</naziv><cijena>500.00</cijena></uslug>
+  <usluga>
+    <naziv>Održavanje web stranice</naziv>
+    <opis><strong>Mjesečno tehničko održavanje</opis></strong>
+    <cijena>39.00</cijena>
+  </usluga>
+  <stavka valuta=EUR><naziv>Hosting</naziv><cijena>99.00</cijena></stavka>
+  <napomena>Hosting & održavanje uključeni</napomena>
+  <dostupnost / >
+  </popust>
+  <kontakt><email>info@example.hr</email>
+</cjenik>
