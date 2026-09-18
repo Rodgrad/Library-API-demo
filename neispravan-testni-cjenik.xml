@@ -1,13 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cjenik valuta="EUR" jezik="hr">
   <tvrtka>
-    <naziv>Testna Trgovina d.o.o.</naziv>
+    <naziv>Test Sedam Grešaka d.o.o.</naziv>
   </tvrtka>
 
-  <kategorija naziv="Usluge">
-    <usluga>
-      <naziv>Osnovna usluga</naziv>
-      <cijena>49.00</cijena>
-      <jedinica>usluga</jedinica>
-  </kategorija>
+  <!-- GREŠKA 1: nepodudarajuće oznake -->
+  <kategorija>
+    <naziv>Web usluge</naziv>
+  </kategorije>
+
+  <!-- GREŠKA 2: nezatvorena oznaka -->
+  <usluga>
+    <naziv>Izrada web stranice</naziv>
+    <cijena>500.00</cijena>
+
+  <!-- GREŠKA 3: neispravno ugniježđene oznake -->
+  <opis><strong>Opis usluge</opis></strong>
+
+  <!-- GREŠKA 4: atribut bez navodnika -->
+  <stavka valuta=EUR>
+    <naziv>Hosting</naziv>
+  </stavka>
+
+  <!-- GREŠKA 5: nedopušten znak & -->
+  <napomena>Hosting & održavanje uključeni</napomena>
+
+  <!-- GREŠKA 6: neispravan završetak praznog elementa -->
+  <dostupnost / >
+
+  <!-- GREŠKA 7: završna oznaka bez odgovarajuće početne -->
+  </popust>
+
 </cjenik>
