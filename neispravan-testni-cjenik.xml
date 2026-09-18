@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cjenik valuta="EUR" jezik="hr">
+  <tvrtka>
+    <naziv>Testna Trgovina d.o.o.</naziv>
+  </tvrtka>
+
+  <kategorija naziv="Usluge">
+    <usluga>
+      <naziv>Osnovna usluga</naziv>
+      <cijena>49.00</cijena>
+      <jedinica>usluga</jedinica>
+  </kategorija>
+</cjenik>

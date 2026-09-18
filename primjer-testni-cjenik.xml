@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cjenik valuta="EUR" jezik="hr">
+  <tvrtka>
+    <naziv>Primjer Digital d.o.o.</naziv>
+    <oib>12345678901</oib>
+  </tvrtka>
+  <kategorija naziv="Web usluge">
+    <usluga>
+      <naziv>Izrada jednostavne web stranice</naziv>
+      <opis>Izrada informativne web stranice do tri podstranice.</opis>
+      <cijena>490.00</cijena>
+      <jedinica>projekt</jedinica>
+    </usluga>
+    <usluga>
+      <naziv>Održavanje web stranice</naziv>
+      <opis>Tehničko održavanje i manje izmjene sadržaja.</opis>
+      <cijena>39.00</cijena>
+      <jedinica>mjesec</jedinica>
+    </usluga>
+    <usluga>
+      <naziv>Dodatna podstranica</naziv>
+      <opis>Izrada dodatne podstranice unutar postojeće web stranice.</opis>
+      <cijena>85.00</cijena>
+      <jedinica>stranica</jedinica>
+    </usluga>
+  </kategorija>
+  <kategorija naziv="Digitalne usluge">
+    <usluga>
+      <naziv>Postavljanje analitike</naziv>
+      <opis>Osnovno postavljanje web analitike.</opis>
+      <cijena>75.00</cijena>
+      <jedinica>usluga</jedinica>
+    </usluga>
+    <usluga>
+      <naziv>Tehnička optimizacija</naziv>
+      <opis>Osnovna optimizacija performansi postojeće web stranice.</opis>
+      <cijena>120.00</cijena>
+      <jedinica>usluga</jedinica>
+    </usluga>
+  </kategorija>
+  <azurirano>2026-09-18</azurirano>
+</cjenik>
